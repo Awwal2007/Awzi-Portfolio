@@ -11,7 +11,7 @@ import { IoServerSharp } from "react-icons/io5";
 import { FaPenNib } from "react-icons/fa6";
 import AnimatedSection from '../components/AnimatedSection';
 import { SkillsMarquee } from '../components/SkillsMarquee';
-import { FaArrowDown, FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
+import { FaArrowDown, FaGithub, FaInstagram, FaLinkedin, FaWhatsapp } from "react-icons/fa";
 
 export const Home = () => {
     
@@ -112,19 +112,19 @@ return (
                 <h1 className='text-4xl font-semibold text-gray-200 text-center'>My Expertise</h1>
                 <p className='text-center text-xl text-gray-400 mt-5'>I’m highly skilled in each of the following areas</p>
                 <div className='grid grid-cols-3 max-md:grid-cols-1 max-xm:grid-cols-2 align-center gap-8 items-center mt-10'>
-                    <div className='group flex flex-col items-center justify-center w-full md:h-60 py-6 px-4 rounded-r-xl hover:shadow-md hover:shadow-gray-100/20 hover:scale-101 bg-black border-[0.2px] border-solid border-white/20'>
+                    <div className='group flex flex-col items-center transition-all ease-in-out justify-center w-full md:h-60 py-6 px-4 rounded-r-xl hover:shadow-md hover:shadow-gray-100/20 hover:scale-101 bg-black border-[0.2px] border-solid border-white/20'>
                         <PiCodeBold className='fill-orange-500 size-18 mb-5' />
                         <h3 className='text-xl font-bold mb-4 text-gray-200 group-hover:text-orange-500 text-center'>Frontend Development</h3>
                         <p className='text-center text-gray-400'>I create responsive, user-friendly interfaces using React, Next.js, and Tailwind CSS.</p>
                     </div>
 
-                    <div className='group flex flex-col items-center justify-center w-full md:h-60 py-6  px-4 rounded-r-xl hover:shadow-md hover:shadow-gray-100/20 hover:scale-101 bg-black border-[0.2px] border-solid border-white/20'>
+                    <div className='group flex flex-col items-center transition-all ease-in-out justify-center w-full md:h-60 py-6  px-4 rounded-r-xl hover:shadow-md hover:shadow-gray-100/20 hover:scale-101 bg-black border-[0.2px] border-solid border-white/20'>
                         <FaPenNib className='fill-orange-500 size-14 mb-5' />
                         <h3 className='text-xl font-bold mb-4 text-gray-200 text-center group-hover:text-orange-500'>Figma Design</h3>
                         <p className='text-center text-gray-400'>I apply UI/UX principles to design clean, intuitive, and visually consistent experiences.</p>
                     </div>
 
-                    <div className='group flex flex-col items-center justify-center w-full md:h-60 py-6 px-4 rounded-r-xl hover:shadow-md hover:shadow-gray-100/20 hover:scale-101 bg-black border-[0.2px] border-solid border-white/20'>
+                    <div className='group flex flex-col items-center transition-all ease-in-out justify-center w-full md:h-60 py-6 px-4 rounded-r-xl hover:shadow-md hover:shadow-gray-100/20 hover:scale-101 bg-black border-[0.2px] border-solid border-white/20'>
                         <IoServerSharp className='fill-orange-500 size-14 mb-5' />
                         <h3 className='text-xl font-bold mb-4 text-gray-200 text-center group-hover:text-orange-500'>Backend Development</h3>
                         <p className='text-center text-gray-400'>I build reliable server-side logic and work with APIs, databases, and authentication with node.js, mongodb, firebase etc.</p>
@@ -172,13 +172,13 @@ return (
                 <div className='text-4xl font-semibold text-gray-200 text-center'>Project</div>
                 <p className='text-center text-xl text-gray-400 mt-5'>Here are my previous projects</p>
                 <div className='grid grid-cols-1 xm:grid-cols-3 md:grid-cols-2 gap-14 justify-center items-center mt-15'>
-                    <div className='w-full flex flex-col'>
+                    <div className='w-full flex flex-col hover:scale-105 transition-all ease-in-out'>
                         <div className=' border-[0.2px] border-solid border-white/20 rounded-r-xl'>
                             <img className='' src={logo} alt="product image" />
                         </div>
 
                         <div>
-                            <div className='text-3xl font-semibold mt-4'>Ecormerce Website</div>
+                            <div className='text-3xl font-semibold mt-4'>Ecommerce Website</div>
                             <div className='mt-4 text-gray-400'>Made with:</div>
                             <div className='flex flex-wrap gap-4 mt-4'>
                                 <span className='px-4 rounded-r-full bg-orange-500'>React Js</span>
@@ -191,13 +191,13 @@ return (
 
                     </div>
 
-                    <div className='w-full flex flex-col'>
+                    <div className='w-full flex flex-col  hover:scale-105 transition-all ease-in-out'>
                         <div className=' border-[0.2px] border-solid border-white/20 rounded-r-xl'>
                             <img className='' src={logo} alt="product image" />
                         </div>
 
                         <div>
-                            <div className='text-3xl font-semibold mt-4'>Ecormerce Website</div>
+                            <div className='text-3xl font-semibold mt-4'>Ecommerce Website</div>
                             <div className='mt-4 text-gray-400'>Made with:</div>
                             <div className='flex flex-wrap gap-4 mt-4'>
                                 <span className='px-4 rounded-r-full bg-orange-500'>React Js</span>
@@ -210,13 +210,13 @@ return (
 
                     </div>
 
-                    <div className='w-full flex flex-col'>
+                    <div className='w-full flex flex-col hover:scale-105 transition-all ease-in-out'>
                         <div className=' border-[0.2px] border-solid border-white/20 rounded-r-xl'>
                             <img className='' src={logo} alt="product image" />
                         </div>
 
                         <div>
-                            <div className='text-3xl font-semibold mt-4'>Ecormerce Website</div>
+                            <div className='text-3xl font-semibold mt-4'>Ecommerce Website</div>
                             <div className='mt-4 text-gray-400'>Made with:</div>
                             <div className='flex flex-wrap gap-4 mt-4'>
                                 <span className='px-4 rounded-r-full bg-orange-500'>React Js</span>
@@ -254,6 +254,9 @@ return (
                             </a>
                             <a href="https://github.com/Awwal2007" target='blank' rel="noopener noreferrer">
                                 <FaLinkedin className='text-5xl text-gray-200 hover:text-orange-500' />
+                            </a>
+                            <a href="https://wa.me/2349037118808" target='blank' rel="noopener noreferrer">
+                                <FaWhatsapp className='text-5xl text-gray-200 hover:text-orange-500' />
                             </a>
                         </div>
                     </div>
