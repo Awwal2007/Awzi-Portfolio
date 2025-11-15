@@ -4,6 +4,7 @@ import useCountUp from '../components/useCountUp';
 import {toast} from 'sonner'
 
 import logo from '../assets/my-dev-logo-icon.png'
+import eatEasy from '../assets/eat-easy.png'
 
 import { HiReply } from "react-icons/hi";
 import { PiCodeBold } from "react-icons/pi";
@@ -173,60 +174,63 @@ return (
                 <p className='text-center text-xl text-gray-400 mt-5'>Here are my previous projects</p>
                 <div className='grid grid-cols-1 xm:grid-cols-3 md:grid-cols-2 gap-14 justify-center items-center mt-15'>
                     <div className='w-full flex flex-col hover:scale-105 transition-all ease-in-out'>
-                        <div className=' border-[0.2px] border-solid border-white/20 rounded-r-xl'>
-                            <img className='' src={logo} alt="product image" />
-                        </div>
-
-                        <div>
-                            <div className='text-3xl font-semibold mt-4'>Ecommerce Website</div>
-                            <div className='mt-4 text-gray-400'>Made with:</div>
-                            <div className='flex flex-wrap gap-4 mt-4'>
-                                <span className='px-4 rounded-r-full bg-orange-500'>React Js</span>
-                                <span className='px-4 rounded-r-full bg-orange-500'>Taiwind Css</span>
-                                <span className='px-4 rounded-r-full bg-orange-500'>Javascript</span>
-                                <span className='px-4 rounded-r-full bg-orange-500'>Taiwind Css</span>
-                                
+                        <a href="https://eat-easy-frontend.vercel.app/" target='blank' rel="noopener noreferrer">
+                            <div className=' border-[0.2px] border-solid border-white/20 rounded-r-xl'>
+                                <img className='' src={eatEasy} alt="product image" />
                             </div>
-                        </div>
 
-                    </div>
-
-                    <div className='w-full flex flex-col  hover:scale-105 transition-all ease-in-out'>
-                        <div className=' border-[0.2px] border-solid border-white/20 rounded-r-xl'>
-                            <img className='' src={logo} alt="product image" />
-                        </div>
-
-                        <div>
-                            <div className='text-3xl font-semibold mt-4'>Ecommerce Website</div>
-                            <div className='mt-4 text-gray-400'>Made with:</div>
-                            <div className='flex flex-wrap gap-4 mt-4'>
-                                <span className='px-4 rounded-r-full bg-orange-500'>React Js</span>
-                                <span className='px-4 rounded-r-full bg-orange-500'>Taiwind Css</span>
-                                <span className='px-4 rounded-r-full bg-orange-500'>Javascript</span>
-                                <span className='px-4 rounded-r-full bg-orange-500'>Taiwind Css</span>
-                                
+                            <div>
+                                <div className='text-3xl font-semibold mt-4'>Ecommerce Website</div>
+                                <div className='mt-4 text-gray-400'>Made with:</div>
+                                <div className='flex flex-wrap gap-4 mt-4'>
+                                    <span className='px-4 rounded-r-full bg-orange-500'>React Js</span>
+                                    <span className='px-4 rounded-r-full bg-orange-500'>Taiwind Css</span>
+                                    <span className='px-4 rounded-r-full bg-orange-500'>Javascript</span>
+                                    <span className='px-4 rounded-r-full bg-orange-500'>Taiwind Css</span>
+                                    
+                                </div>
                             </div>
-                        </div>
-
+                        </a>
                     </div>
 
                     <div className='w-full flex flex-col hover:scale-105 transition-all ease-in-out'>
-                        <div className=' border-[0.2px] border-solid border-white/20 rounded-r-xl'>
-                            <img className='' src={logo} alt="product image" />
-                        </div>
-
-                        <div>
-                            <div className='text-3xl font-semibold mt-4'>Ecommerce Website</div>
-                            <div className='mt-4 text-gray-400'>Made with:</div>
-                            <div className='flex flex-wrap gap-4 mt-4'>
-                                <span className='px-4 rounded-r-full bg-orange-500'>React Js</span>
-                                <span className='px-4 rounded-r-full bg-orange-500'>Taiwind Css</span>
-                                <span className='px-4 rounded-r-full bg-orange-500'>Javascript</span>
-                                <span className='px-4 rounded-r-full bg-orange-500'>Taiwind Css</span>
-                                
+                        <a href="https://eat-easy-frontend.vercel.app/" target='blank' rel="noopener noreferrer">
+                            <div className=' border-[0.2px] border-solid border-white/20 rounded-r-xl'>
+                                <img className='' src={eatEasy} alt="product image" />
                             </div>
-                        </div>
 
+                            <div>
+                                <div className='text-3xl font-semibold mt-4'>Ecommerce Website</div>
+                                <div className='mt-4 text-gray-400'>Made with:</div>
+                                <div className='flex flex-wrap gap-4 mt-4'>
+                                    <span className='px-4 rounded-r-full bg-orange-500'>React Js</span>
+                                    <span className='px-4 rounded-r-full bg-orange-500'>Taiwind Css</span>
+                                    <span className='px-4 rounded-r-full bg-orange-500'>Javascript</span>
+                                    <span className='px-4 rounded-r-full bg-orange-500'>Taiwind Css</span>
+                                    
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div className='w-full flex flex-col hover:scale-105 transition-all ease-in-out'>
+                        <a href="https://eat-easy-frontend.vercel.app/" target='blank' rel="noopener noreferrer">
+                            <div className=' border-[0.2px] border-solid border-white/20 rounded-r-xl'>
+                                <img className='' src={eatEasy} alt="product image" />
+                            </div>
+
+                            <div>
+                                <div className='text-3xl font-semibold mt-4'>Ecommerce Website</div>
+                                <div className='mt-4 text-gray-400'>Made with:</div>
+                                <div className='flex flex-wrap gap-4 mt-4'>
+                                    <span className='px-4 rounded-r-full bg-orange-500'>React Js</span>
+                                    <span className='px-4 rounded-r-full bg-orange-500'>Taiwind Css</span>
+                                    <span className='px-4 rounded-r-full bg-orange-500'>Javascript</span>
+                                    <span className='px-4 rounded-r-full bg-orange-500'>Taiwind Css</span>
+                                    
+                                </div>
+                            </div>
+                        </a>
                     </div>
                 </div>
             </section>
