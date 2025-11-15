@@ -247,16 +247,16 @@ return (
                         </div>
                         <div className='flex gap-6'>
                             <a href="https://github.com/Awwal2007" target='blank' rel="noopener noreferrer">
-                                <FaGithub className='text-5xl text-gray-200 hover:text-orange-500' />
+                                <FaGithub className='text-5xl text-gray-200 hover:text-orange-500 hover:scale-115 transition-all ease-in-out' />
                             </a>
                             <a href="https://github.com/Awwal2007" target='blank' rel="noopener noreferrer">
-                                <FaInstagram className='text-5xl text-gray-200 hover:text-orange-500' />
+                                <FaInstagram className='text-5xl text-gray-200 hover:text-orange-500 hover:scale-115 transition-all ease-in-out' />
                             </a>
                             <a href="https://github.com/Awwal2007" target='blank' rel="noopener noreferrer">
-                                <FaLinkedin className='text-5xl text-gray-200 hover:text-orange-500' />
+                                <FaLinkedin className='text-5xl text-gray-200 hover:text-orange-500 hover:scale-115 transition-all ease-in-out' />
                             </a>
                             <a href="https://wa.me/2349037118808" target='blank' rel="noopener noreferrer">
-                                <FaWhatsapp className='text-5xl text-gray-200 hover:text-orange-500' />
+                                <FaWhatsapp className='text-5xl text-gray-200 hover:text-orange-500 hover:scale-115 transition-all ease-in-out' />
                             </a>
                         </div>
                     </div>
