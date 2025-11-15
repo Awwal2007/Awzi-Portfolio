@@ -172,7 +172,7 @@ return (
             <section id='project' className='sm:px-10 sm:mt-20 py-20 px-6'>
                 <div className='text-4xl font-semibold text-gray-200 text-center'>Project</div>
                 <p className='text-center text-xl text-gray-400 mt-5'>Here are my previous projects</p>
-                <div className='grid grid-cols-1 xm:grid-cols-3 md:grid-cols-2 gap-14 justify-center items-center mt-15'>
+                <div className='grid grid-cols-1 xm:grid-cols-3 md:grid-cols-2 gap-14 items-baseline mt-15'>
                     <div className='w-full flex flex-col hover:scale-105 transition-all ease-in-out'>
                         <a href="https://eat-easy-frontend.vercel.app/" target='blank' rel="noopener noreferrer">
                             <div className=' border-[0.2px] border-solid border-white/20 rounded-r-xl'>
@@ -183,10 +183,12 @@ return (
                                 <div className='text-3xl font-semibold mt-4'>Ecommerce Website</div>
                                 <div className='mt-4 text-gray-400'>Made with:</div>
                                 <div className='flex flex-wrap gap-4 mt-4'>
+                                    <div className=' text-gray-400'>Frontend:</div>
                                     <span className='px-4 rounded-r-full bg-orange-500'>React Js</span>
                                     <span className='px-4 rounded-r-full bg-orange-500'>Taiwind Css</span>
-                                    <span className='px-4 rounded-r-full bg-orange-500'>Javascript</span>
-                                    <span className='px-4 rounded-r-full bg-orange-500'>Taiwind Css</span>
+                                    <div className=' text-gray-400'>Backend:</div>
+                                    <span className='px-4 rounded-r-full bg-orange-500'>Node js & Express</span>
+                                    <span className='px-4 rounded-r-full bg-orange-500'>Mongodb</span>
                                     
                                 </div>
                             </div>
